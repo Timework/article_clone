@@ -86,3 +86,348 @@ h1 {
 .alan-bonus {
     color: #888;
 }
+.word-holder {
+    width: 600px;
+    margin: 50px 0 0 420px;
+}
+.author {
+    margin: 0;
+    font-size: 15px;
+    margin: 0 0 20px 0;
+}
+time {
+    font-size: 13px;
+}
+.button-holder {
+    display: flex;
+}
+.button-holder > *{
+    margin: 0 10px;
+}
+.buttons > * {
+    background-color: #e9e9e9;
+    border: 1px solid #e9e9e9;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+}
+.buttons > *:hover {
+    background-color: white;
+}
+.bubble-number {
+    margin: 8px 0 0 -38px;
+    font-size: 14px;
+}
+.data-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+.para {
+    margin: 25px 0 0 0 ;
+    font-size: 21px;
+    line-height: 30px;
+}
+.thank-you-box {
+    width: 100%;
+}
+.thank-you-box > * {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 20px;
+}
+.thank-list {
+    list-style-type: none;
+    margin: 17px 0;
+    padding: 0;
+}
+.thank-list > * {
+    margin: 0;
+    padding: 0;
+}
+.thank-link {
+    text-decoration: none;
+}
+.line {
+    width: 72px;
+    color: rgb(204, 204, 204)
+}
+.space-image {
+    display: grid;
+    width: 100%;
+    height: 576px;
+    background-image: url(images/space.png);
+    background-size: 945px 576px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 6px;
+    grid-template-areas:
+    ". . . ."
+    "universe time distant coffee"
+    ". . . ."
+    "still inflation fluc expansion";
+}
+.universe {
+    grid-area: universe;
+}
+.time {
+    grid-area: time;
+}
+.distant {
+    grid-area: distant;
+}
+.coffee {
+    grid-area: coffee;
+}
+.still {
+    grid-area: still;
+}
+.inflation {
+    grid-area: inflation;
+}
+.fluc {
+    grid-area: fluc;
+}
+.expansion {
+    grid-area: expansion;
+}
+.space-image > * {
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 300;
+}
+.space-ex {
+    width: 945px;
+    margin: 0 auto;
+}
+.space-ex h1 {
+    font-size: 20px;
+    font-style: normal;
+    margin-bottom: 0;
+}
+.space-ex-info {
+    margin-top: 0;
+    font-size: 15px;
+    color: #666;
+}
+.space-line {
+    width: 60px;
+    color: #333;
+    margin-left: 0;
+}
+.space-ex-footer {
+    font-size: 14px;
+    color: #333;
+}
+.video {
+    margin-top: 40px;
+}
+.video-info {
+    font-size: 16px;
+    color: #666;
+}
+.credit {
+    margin-left: 10px;
+    color: #888;
+    font-size: 14px;
+}
+.telescope {
+    margin: 0 auto;
+    width: 720px;
+}
+.telescope-img {
+    margin: 40px 0 10px 0;
+    width: 720px;
+    height: 480px;
+}
+.para-footer {
+    color: rgb(102, 102, 102);
+    font-size: 12px;
+    margin: 15px 0;
+}
+.para-footer a {
+    color: rgb(102, 102, 102);
+}
+.comments {
+    font: 400 13.33px Arial;
+    border: 1px solid;
+    color: white;
+    background-color: rgb(86, 123, 149);
+    border-color: rgb(50, 104, 145);
+    border-radius: 3px;
+    padding: 5px 0;
+    width: 328px;
+    height: 32px;
+}
+.button-footer {
+    display: flex;
+    justify-content: space-between;
+}
+.but-foot > * {
+    margin-left: 15px;
+}
+.bottom {
+    width: 1200px;
+    height: 1096.5px;
+    padding: 20px 43.188px 0 43.188px;
+    margin: 45px 76.813px 0 76.813px;
+    display: flex;
+}
+.more {
+    width: 852px;
+    height: 729.750px;
+    border-top: 1px solid black;
+}
+.popular {
+    width: 318px;
+    height: 1080.5px;
+    padding: 0 0 15px 0;
+    margin: 0 0 0 30px;
+    border-top: 1px solid black;
+}
+.more-in-space {
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+.bottom-pictures {
+    width: 852px;
+    height: 674.750px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 15px;
+}
+.bottom-section {
+    width: 272.625px;
+    height: 341px;
+    margin: 0;
+    padding: 0 0 20px 0;
+}
+.bottom-image {
+    width: 272.625px;
+    height: 181.750px;
+}
+.bottom-caption {
+    width: 100%;
+    font-size: 11px;
+    color: rgb(153, 153, 153);
+    text-align: end;
+    margin: 3px 0 4px 0;
+    padding: 0;
+}
+.bottom-title {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+.bottom-date {
+    font-size: 12px;
+    margin: 8px 0;
+    color: rgb(153, 153, 153);
+}
+.popular-list {
+    border-top: 1px solid rgb(226, 226, 226);
+    font-size: 19px;
+    font-weight: normal;
+    padding: 15px 0;
+    margin: 0;
+    line-height: 25px;
+}
+.editor {
+    width: 852px;
+    height: 346.750px;
+    border-top: 1px solid black;
+}
+.editor-pic {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 15px;
+}
+.footer {
+    width: 1200px;
+    height: 419px;
+    padding: 0 43.188px 9px 43.188px;
+    margin: 0 76.813px;
+}
+.before {
+    border-bottom: 1px solid #e2e2e2;
+    border-top: 2px solid #e2e2e2;
+    height: 1px;
+}
+.footer-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 20px 0;
+}
+.footer-img {
+    width: 184px;
+}
+.footer-link {
+    font-size: 11px;
+    text-decoration: none;
+    color: black;
+}
+.footer-section {
+    width: 197.328px;
+    height: 361px;
+}
+.footer-section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.footer-section li {
+    font-size: 14px;
+    height: 23px;
+    margin: 0;
+    padding: 0;
+}
+.footer-holder {
+    display: flex;
+}
+.footer-last {
+    border-left: 1px solid #e2e2e2;
+    padding: 0 0 0 20px;
+}
+.big-section li {
+    height: 25px;
+    font-size: 17px;
+    line-height: 15px;
+    margin: 5px 0;
+}
+.little-section li {
+    font-size: 11px;
+    height: 23px;
+    line-height: 21px;
+}
+.liner {
+    border-bottom: 1px solid #e2e2e2;
+    width: 197.328px;
+    margin-bottom: 10px;
+}
+.last-list {
+    margin-bottom: 10px;
+}
+.last {
+    border-top: 1px solid #e2e2e2;
+    margin: 0 76.813px;
+    padding: 0 43.188px 45px 43.188px;
+    width: 1200px;
+    height: 66px;
+}
+.last ul {
+    list-style: none;
+    margin: 0 0 15px;
+    padding: 0;
+    display: flex;
+    align-content: center;
+}
+.last li {
+    color: #666;
+    font-size: 11px;
+    margin: 20px 10px;
+}
